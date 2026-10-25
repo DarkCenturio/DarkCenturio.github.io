@@ -1,0 +1,21 @@
+:root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #202d35; background: #f7f8f5; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.75; }
+header, main, footer { width: min(760px, calc(100% - 48px)); margin-inline: auto; }
+header { padding: 26px 0; border-bottom: 1px solid #d9e0dc; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 24px; }
+.brand { color: #202d35; font-weight: 700; text-decoration: none; }
+header span, footer { color: #52665e; font-size: .9rem; }
+main { padding-block: 52px 32px; }
+.eyebrow { color: #336b54; font-size: .8rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 16px; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; letter-spacing: -.035em; margin: 0 0 24px; text-wrap: balance; }
+.intro { font-size: 1.15rem; color: #465a51; margin-bottom: 40px; }
+section { margin-block: 30px; }
+h2 { font-size: 1.1rem; line-height: 1.4; margin: 0 0 10px; }
+p { margin: 0 0 16px; }
+a { color: #245d45; text-underline-offset: 4px; overflow-wrap: anywhere; }
+a:hover { color: #163d2d; }
+a:focus-visible { outline: 3px solid #8db89e; outline-offset: 5px; border-radius: 2px; }
+code { font-size: .9em; background: #e8eee8; padding: 2px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+footer { border-top: 1px solid #d9e0dc; padding: 22px 0 32px; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 12px; }
+@media (max-width: 480px) { header, main, footer { width: calc(100% - 36px); } main { padding-top: 36px; } }
